@@ -289,7 +289,7 @@ class World {
             this.sound = new THREE.Audio(listener);
             const audioLoader = new THREE.AudioLoader();
             audioLoader.load(
-                "coanhodayroi.mp3",
+                "nhac.mp3",
                 (buffer) => {
                     this.sound.setBuffer(buffer);
                     this.sound.setLoop(false);
